@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsDomSelector</title>
+    <style>
+h1{
+    text-align:center;
+    color: rgb(17, 5, 1);
+    font-weight:700;
+    }
+    body{
+        width: 600px;
+        length: 600px;
+        box-sizing: border-box;
+        border-color: darkred;
+        background-color: rgb(240, 247, 245);
+        border-style: solid;
+        display: flexbox;
+           }
+h2 { 
+    width: 600px;
+    background-color: darkgrey;
+text-decoration: darkblue;
+align-items: center;
+text-align:left;
+font-size: large;
+}
+#languages{
+    width: 600px;
+    background-color: rgb(93, 128, 93);
+text-decoration: black;
+border: blue 1px;
+text-align: justify;
+
+}
+
+}
+#skills{
+    width: 600px;
+display: flexbox;
+background-color:rgb(61, 117, 150);
+border: coral 3px;
+justify-content: left;
+ 
+}
+#interest{
+    width: 600px;
+display: flexbox;
+background-color: rgba(255, 127, 80, 0.315);
+border: coral 3px;
+justify-content: left;
+
+}
+
+.languages{
+    background-color: darkolivegreen;
+color:black;
+flex: auto ;
+justify-content: right;
+text-align: justify;
+}
+
+.query {
+    background-color: rgba(119, 88, 20, 0.192);
+text-align: justify;
+text-decoration: black;
+justify-content:right;
+
+
+}
+.queryselector{
+    background-color:rgba(50, 129, 182, 0.719);
+    font-size: large;
+    text-align: justify;
+    text-decoration: maroon;
+    justify-content: right;
+}
+#queryselector{
+    background-color: rgba(50, 129, 182, 0.719);
+font-size: larger;
+text-align: left;
+text-decoration: rgb(41, 78, 3);
+}
+ #Requestedlanguages{
+     background-color: rgba(233, 177, 132, 0.425);
+     font-size: larger;
+     text-align: left;
+     text-decoration: rgb(2, 49, 47);
+
+ }    
+.lists{
+background-color: lightslategray;
+font-size: large;
+text-decoration: rgb(4, 54, 4);
+
+}
+ 
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Resume</h1>
+
+        <h2 class="objectiveslist">Objectives </h2> 
+        <div>
+        <li id=languages>html 1st course</li>
+            <li id="languages">css 2nd course</li>
+            <li id="languages">js 3rd course</li>
+             </div> 
+            
+        <h2 class="skills" >skills
+            <ol id= skills>html2</ol>
+            <ol id= skills>css2</ol>
+            <ol id= skills>js2</ol>
+        </h2>
+         
+    <h2 class="Interest"> Interests
+<li id= "interest">webdevelopers</li>
+<li id="interest">techworld</li>
+<li id="interest">creatingtheweb</li>
+    
+    </h2> 
+
+    <div id="queryselector">queryselector
+        <ul class="queryselector">html3</ul>
+        <ul class="queryselector">css3</ul>
+        <ul class="queryselector"> js3</ul>
+    
+    </div>
+
+   <p id= "Requestedlanguages"> The most needed languages for 2021</p>
+  
+    <li class="lists">item 1</li>
+    <li class="lists">item 2</li>
+    <li class="lists">item 3</li>
+
+   <script src="javascript.js"></script>
+</body>
+</header>
+
+</html>
+
